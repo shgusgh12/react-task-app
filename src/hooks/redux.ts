@@ -7,4 +7,23 @@ export const useTypedSelector: TypedUseSelectorHook<RootState> = useSelector
 
 export const useTypedDispatch = () => useDispatch<AppDispatch>();
 
-const logger = useTypedSelector((state) => state.logger)
+
+
+// interface Obj <T> {
+//     name : T;
+// }
+
+// interface State {
+//     state :{
+//         data :string,
+//         loading : boolean
+//     }
+// }
+
+// const obj : State = {
+//     name : {
+//         state : {
+//             name : ''
+//         }
+//     }
+// }

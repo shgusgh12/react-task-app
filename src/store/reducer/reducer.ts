@@ -5,7 +5,8 @@ import { modalReducer } from "../slices/modalSlice";
 const reducer = {
     logger : loggerReducer,
     boards : boardsReducer,
-    modal : modalReducer
+    modal : modalReducer,
+   
 }
 
 export default reducer;
